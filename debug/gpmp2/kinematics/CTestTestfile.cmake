@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /home/zhjd/work/gpmp2/gpmp2/kinematics
+# Build directory: /home/zhjd/work/gpmp2/debug/gpmp2/kinematics
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(testArm "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testArm")
+set_tests_properties(testArm PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testArmModel "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testArmModel")
+set_tests_properties(testArmModel PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testGaussianPriorWorkspaceOrientation "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testGaussianPriorWorkspaceOrientation")
+set_tests_properties(testGaussianPriorWorkspaceOrientation PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testGaussianPriorWorkspacePose "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testGaussianPriorWorkspacePose")
+set_tests_properties(testGaussianPriorWorkspacePose PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testGaussianPriorWorkspacePosition "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testGaussianPriorWorkspacePosition")
+set_tests_properties(testGaussianPriorWorkspacePosition PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testGoalFactorArm "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testGoalFactorArm")
+set_tests_properties(testGoalFactorArm PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testJointLimitFactorPose2Vector "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testJointLimitFactorPose2Vector")
+set_tests_properties(testJointLimitFactorPose2Vector PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testJointLimitFactorVector "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testJointLimitFactorVector")
+set_tests_properties(testJointLimitFactorVector PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testMobileBaseUtils "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testMobileBaseUtils")
+set_tests_properties(testMobileBaseUtils PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testPointRobotModel "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testPointRobotModel")
+set_tests_properties(testPointRobotModel PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testPose2Mobile2Arms "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testPose2Mobile2Arms")
+set_tests_properties(testPose2Mobile2Arms PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testPose2MobileArm "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testPose2MobileArm")
+set_tests_properties(testPose2MobileArm PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testPose2MobileBase "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testPose2MobileBase")
+set_tests_properties(testPose2MobileBase PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testPose2MobileVetLin2Arms "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testPose2MobileVetLin2Arms")
+set_tests_properties(testPose2MobileVetLin2Arms PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
+add_test(testPose2MobileVetLinArm "/home/zhjd/work/gpmp2/debug/gpmp2/kinematics/testPose2MobileVetLinArm")
+set_tests_properties(testPose2MobileVetLinArm PROPERTIES  _BACKTRACE_TRIPLES "/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;165;add_test;/usr/local/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;6;gtsamAddTestsGlob;/home/zhjd/work/gpmp2/gpmp2/kinematics/CMakeLists.txt;0;")
