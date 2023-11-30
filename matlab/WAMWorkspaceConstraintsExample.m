@@ -159,14 +159,14 @@ if use_LM
     parameters.setVerbosity('ERROR');
     parameters.setlambdaInitial(1000.0);
     optimizer = LevenbergMarquardtOptimizer(graph, init_values, parameters);
-% elseif use_trustregion_opt
-%     parameters = DoglegParams;
-%     parameters.setVerbosity('ERROR');
-%     optimizer = DoglegOptimizer(graph, init_values, parameters);
-% else
-%     parameters = GaussNewtonParams;
-%     parameters.setVerbosity('ERROR');
-%     optimizer = GaussNewtonOptimizer(graph, init_values, parameters);
+elseif use_trustregion_opt
+    parameters = DoglegParams;
+    parameters.setVerbosity('ERROR');
+    optimizer = DoglegOptimizer(graph, init_values, parameters);
+else
+    parameters = GaussNewtonParams;
+    parameters.setVerbosity('ERROR');
+    optimizer = GaussNewtonOptimizer(graph, init_values, parameters);
 end
 tic
 optimizer.optimize();
