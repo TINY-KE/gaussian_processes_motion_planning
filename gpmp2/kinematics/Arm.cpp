@@ -12,14 +12,6 @@ using namespace gtsam;
 
 namespace gpmp2 {
 
-
-
-
-
-
-
-
-
 /* ************************************************************************** */
 Arm::Arm(size_t dof, const Vector& a, const Vector& alpha, const Vector& d,
     const Pose3& base_pose, const Vector& theta_bias) :
@@ -34,16 +26,6 @@ Arm::Arm(size_t dof, const Vector& a, const Vector& alpha, const Vector& d,
         Pose3(Rot3(), Point3(a_(i), 0, 0)) *
         Pose3(Rot3::Rx(alpha_(i)), Point3(0, 0, 0)));
 }
-
-
-
-
-
-
-
-
-`
-
 
 /* ************************************************************************** */
 void Arm::forwardKinematics(

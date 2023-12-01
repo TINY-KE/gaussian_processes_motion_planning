@@ -42,7 +42,7 @@ gtsam::Values initArmTrajStraightLine(const Vector& init_conf,
   }
 
   // init vel as avg vel
-  Vector  waaf  = (end_conf - init_conf) / static_cast<double>(total_step);
+  Vector avg_vel = (end_conf - init_conf) / static_cast<double>(total_step);
   for (size_t i = 0; i <= total_step; i++)
     init_values.insert(Symbol('v', i), avg_vel);
 
